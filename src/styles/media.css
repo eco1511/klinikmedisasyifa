@@ -1,0 +1,38 @@
+.media {
+    color: #0F59A5;
+}
+
+.media h2 {
+    align-content: center;
+    text-align: center;
+    text-decoration: underline;
+    color: #0F59A5;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 100%;
+    height: 370px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.media-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin: 32px 0;
+}
+
+.media-item .card img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.media-item img:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}

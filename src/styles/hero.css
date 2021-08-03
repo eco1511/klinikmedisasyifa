@@ -1,0 +1,65 @@
+.hero {
+    align-items: center;
+    min-height: 380px;
+    width: 100%;
+    text-align: center;
+    background-position: center;
+    background-color: #fff;
+    display: grid;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .hero__left {
+    padding: 50px;
+    margin: 10px;
+  }
+
+.hero__right img {
+  width: 100%;
+  margin-top: 20px;
+}
+  
+  .hero__title {
+    color: #0F59A5;
+    font-weight: 500;
+    font-size: 44px;
+  }
+  
+  .hero__tagline {
+    color: #0F59A5;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .satu, .dua{
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .dua {
+    color: #19A14A;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  #button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0F59A5;
+    padding: 12px;
+    margin-top: 20px;
+    width: 15%;
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  #button:hover {
+    color:#0F59A5;
+    background-color: #fff ;
+    border: 2px solid #0F59A5;
+  }

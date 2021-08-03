@@ -1,0 +1,42 @@
+{
+  "name": "klinik",
+  "version": "1.0.0",
+  "description": "klinik medisa syifa",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^6.4.1",
+    "css-loader": "^4.3.0",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "file-loader": "^5.1.0",
+    "html-webpack-plugin": "^4.5.2",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "jimp": "^0.16.1",
+    "responsive-loader": "^2.3.0",
+    "sharp": "^0.28.3",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.46.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.7",
+    "start-dev": "^1.0.0"
+  }
+}

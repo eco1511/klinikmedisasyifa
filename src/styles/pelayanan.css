@@ -1,0 +1,32 @@
+.pelayanan h2{
+    align-content: center;
+    text-align: center;
+    text-decoration: underline;
+    color: #0F59A5;
+    margin-bottom: 30px;
+}
+
+.list__pelayanan {
+    color: #0F59A5;
+}
+
+.list__pelayanan li{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+}
+
+.list__pelayanan li:hover {
+    cursor: pointer;
+    color: #19A14A;
+}
+
+.list__pelayanan h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0F59A5;
+    text-decoration: underline;
+    font-size: 24px;
+}
