@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "6a0a83305e7e28389dd4",
-  "time": 10284,
-  "builtAt": 1627998995944,
+  "hash": "8ac7f3c22d915e773e53",
+  "time": 17328,
+  "builtAt": 1628068803395,
   "publicPath": "",
   "outputPath": "E:\\[MY PROJECT]\\WEBSITE - PAK DIDING\\klinik\\dist",
   "assetsByChunkName": {
@@ -450,7 +450,7 @@
     },
     {
       "name": "main~3d9b8e9ebundle.js",
-      "size": 43386,
+      "size": 43326,
       "chunks": [
         1
       ],
@@ -934,14 +934,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 68705,
+      "size": 68490,
       "names": [
         "main~3d9b8e9e"
       ],
       "files": [
         "main~3d9b8e9ebundle.js"
       ],
-      "hash": "14e07d14e1db837225f2",
+      "hash": "b2d74e553c061665bbab",
       "siblings": [
         0
       ],
@@ -2858,7 +2858,7 @@
           "name": "./src/scripts/index.js + 16 modules",
           "index": 0,
           "index2": 52,
-          "size": 39231,
+          "size": 39016,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3506,7 +3506,7 @@
               "name": "./src/scripts/views/pages/info.js",
               "index": 47,
               "index2": 48,
-              "size": 2354,
+              "size": 2355,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3636,7 +3636,7 @@
               "name": "./src/scripts/data/datasource.js",
               "index": 48,
               "index2": 46,
-              "size": 2681,
+              "size": 2465,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -6265,7 +6265,7 @@
       "name": "./src/scripts/index.js + 16 modules",
       "index": 0,
       "index2": 52,
-      "size": 39231,
+      "size": 39016,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -6913,7 +6913,7 @@
           "name": "./src/scripts/views/pages/info.js",
           "index": 47,
           "index2": 48,
-          "size": 2354,
+          "size": 2355,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -7043,7 +7043,7 @@
           "name": "./src/scripts/data/datasource.js",
           "index": 48,
           "index2": 46,
-          "size": 2681,
+          "size": 2465,
           "cacheable": true,
           "built": true,
           "optional": false,
