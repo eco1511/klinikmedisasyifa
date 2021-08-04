@@ -4,8 +4,7 @@ class DataSourceRestaurant {
   static async Info() {
     const response = await fetch(API_ENPOINT.INFO);
     const responseJson = await response.json();
-    console.log(responseJson.articles);
-    return responseJson.articles;
+    return responseJson.data.posts;
   }
 }
 

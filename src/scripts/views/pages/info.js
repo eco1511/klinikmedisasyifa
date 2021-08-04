@@ -15,8 +15,8 @@ const Info = {
     const infoKlinik = await DataSourceRestaurant.Info();
     const infoContainer = document.querySelector('#info');
     infoContainer.innerHTML = '';
-    infoKlinik.forEach((informasi) => {
-      infoContainer.innerHTML += createInfoItemTemplate(informasi);
+    infoKlinik.forEach((infos) => {
+      infoContainer.innerHTML += createInfoItemTemplate(infos);
     });
   },
 };
